@@ -1,0 +1,29 @@
+.Hero_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 90vh;
+}
+
+.Hero_logo{
+    width: 100%;
+}
+
+.buttonBase{
+    border-radius: 10px;
+    border: none;
+}
+
+.buttonRoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .Hero_logo{
+        width: 100%;
+    }
+}

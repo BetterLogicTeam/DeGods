@@ -1,0 +1,11 @@
+.main_nav{
+    border-bottom: 1px solid rgb(224 224 224);
+    /* border-color: rgb(224 224 224) */
+}
+
+.nav_k_pages{
+    padding-right: 120px;
+    font-family: circular-std !important;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
