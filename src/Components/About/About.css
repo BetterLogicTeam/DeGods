@@ -1,0 +1,46 @@
+.About_main{
+    padding: 40px 0;
+    background-color: rgb(248,249,250);
+}
+
+.more {
+  right: 8px;
+}
+
+.hero_slide {
+  padding-left: 4rem;
+  overflow-x: hidden !important;
+}
+
+.hero_slide::-webkit-scrollbar {
+  height: 10px;
+}
+
+.hero_slide::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.hero_slide::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.hero_slide:hover {
+  overflow-x: scroll !important;
+  overflow-y: hidden !important;
+}
+
+
+@media screen and (max-width: 550px) {
+  .about_heading{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .hero_slide {
+    overflow-x: scroll !important;
+  }
+
+  .about_br{
+    display: none;
+  }
+}

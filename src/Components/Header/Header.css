@@ -1,11 +1,37 @@
 .main_nav{
     border-bottom: 1px solid rgb(224 224 224);
     /* border-color: rgb(224 224 224) */
+    padding:1rem;
+    max-width: 100%;
 }
 
 .nav_k_pages{
     padding-right: 120px;
-    font-family: circular-std !important;
-    font-size: .875rem;
+    font-size: 1rem;
+    font-weight: 600;
     line-height: 1.25rem;
+}
+
+@media screen and (max-width: 850px) {
+    .nav_k_pages{
+        padding-right: 0;
+        padding-left: 0 !important;
+    }
+
+    .nav_k_pages_main{
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Hero_logo img{
+        width: 250px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 550px) {
+    .Hero_logo img{
+        width: 300px;
+    }
 }

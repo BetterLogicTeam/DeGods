@@ -1,0 +1,125 @@
+.Token_main{
+    padding: 90px 0;
+}
+
+.header-sections {
+    text-align: center;
+}
+
+.header-sections h2 {
+    margin-top: 0rem;
+    margin-bottom: 0.625rem;
+    color: black;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 900;
+}
+
+.token{
+    margin-top: 2.5rem;
+    border-style: solid;
+    /* border-width: 0.1875rem; */
+    border-color: black;
+    border-radius: 0.625rem;
+    margin-bottom: 40px;
+}
+
+
+.token-info {
+    display: flex;
+    padding: 0.8125rem 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.1875rem solid black;
+    text-align: center;
+}
+
+.token-info_last{
+    display: flex;
+    padding: 0.8125rem 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head-3 {
+    margin-bottom: 0.25rem;
+    font-size: 1.4rem;
+}
+
+.text-block {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.token-info-circle.green {
+    background-color: white;
+}
+
+.token-info-circle {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    min-height: 10rem;
+    min-width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.9375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.1875rem none #f32508;
+    border-radius: 6.25rem;
+    background-color: white;
+    transition: all 400ms ease;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.text-block-percent {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.token-info-circle {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    min-height: 10rem;
+    min-width: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.9375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.1875rem none #f32508;
+    border-radius: 6.25rem;
+    background-color: white;
+    transition: all 400ms ease;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    transition: 1s;
+}
+
+.token-info-circle:hover{
+    width: 11rem;
+    height: 11rem;
+    min-height: 11rem;
+    min-width: 11rem;
+}
+
+@media screen and (max-width: 950px) {
+    .token-info{
+        border-right: 0;
+        border-bottom: 0.1875rem solid black;
+    }
+
+    .token-info-circle{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+.last_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer_txxt{
+    text-align: start;
+    color: gray;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.follow_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+    .Footer_main{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .follow_main{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer_txxt{
+       text-align: center;
+    }
+}

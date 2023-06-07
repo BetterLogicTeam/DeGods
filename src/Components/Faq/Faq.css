@@ -1,0 +1,52 @@
+.Faq_main{
+    padding-bottom: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.accordion{
+    --bs-accordion-btn-focus-border-color: transparent !important; 
+    --bs-accordion-btn-focus-box-shadow: transparent !important;
+    --bs-accordion-active-color: black !important;
+    --bs-accordion-active-bg: transparent !important;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+}
+
+.accordion-button{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.accor_heading{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important;
+    font-size: 16px !important;
+    text-align: start;
+    font-weight: 500;
+}
+
+.accordion-button{
+    border-radius: 20px !important;
+}
+
+.accordion-item{
+    border: 2px solid black !important;
+    border-radius: 20px !important;
+}
+
+@media screen and (max-width: 550px) {
+    .Faq_main{
+        padding: 0 20px 80px 20px;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 950px) {
+    .Faq_main{
+        padding: 0 90px 60px 90px;
+    }
+}

@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+.hero_para{
+    font-size: 40px;
+}
+
 .buttonBase{
     border-radius: 10px;
     border: none;
@@ -25,5 +29,10 @@
 @media screen and (max-width: 850px) {
     .Hero_logo{
         width: 100%;
+    }
+
+    .Hero_main{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
