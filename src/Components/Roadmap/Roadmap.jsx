@@ -1,5 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
+import circle from "../../assets/circle.svg"
 
 function Roadmap() {
   return (
@@ -16,7 +17,7 @@ function Roadmap() {
               className="road-cell"
             >
               <img
-                src="https://zkpiggy.icoexperts.tech/images/1.svg"
+                src={circle}
                 loading="lazy"
                 alt=""
                 className="roadicon"
@@ -44,7 +45,7 @@ function Roadmap() {
               className="road-cell cell_agin"
             >
               <img
-                src="https://zkpiggy.icoexperts.tech/images/2.svg"
+               src={circle}
                 loading="lazy"
                 alt=""
                 className="roadicon"
@@ -68,13 +69,13 @@ function Roadmap() {
               className="road-cell cell_agin"
             >
               <img
-                src="https://zkpiggy.icoexperts.tech/images/3.svg"
+                 src={circle}
                 loading="lazy"
                 alt=""
                 className="roadicon"
               />
               <ul role="list" className="road-item">
-                <li className="roadmap-items">zkPiggy Swap</li>
+                <li className="roadmap-items">meGods Swap</li>
                 <li className="roadmap-items">Listing on Major Exchanges</li>
                 <li className="roadmap-items">Influencer Marketing Push</li>
                 <li className="roadmap-items">Launch of Merchandise</li>

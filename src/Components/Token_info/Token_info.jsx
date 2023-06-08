@@ -35,7 +35,7 @@ function Token_info() {
                 id="w-node-aeb712cf-3303-4a96-abe8-07e3ae0c200c-8b81b32c"
                 class="token-info"
               >
-                <h3 class="head-3">zkPiggy</h3>
+                <h3 class="head-3">meGods</h3>
                 <div class="text-block">Token Name</div>
               </div>
             </div>
