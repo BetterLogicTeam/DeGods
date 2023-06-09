@@ -1,6 +1,6 @@
 import React from "react";
 import "./Roadmap.css";
-import circle from "../../assets/circle.svg"
+import circle from "../../assets/circle.svg";
 
 function Roadmap() {
   return (
@@ -10,81 +10,125 @@ function Roadmap() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
-            <div
-              data-wf-pbl="layout-grid-2x2-centered"
-              id="w-node-_24ab223e-c1c1-b11a-2056-1123316ed9d3-8b81b32c"
-              className="road-cell"
-            >
-              <img
-                src={circle}
-                loading="lazy"
-                alt=""
-                className="roadicon"
-              />
-              <ul role="list" className="road-item">
-                <li className="roadmap-items">New Website and Branding</li>
-                <li className="roadmap-items">Social Media Channels</li>
-                <li className="roadmap-items">Fair Launch</li>
-                <li className="roadmap-items">Social Media Marketing</li>
-                <li className="roadmap-items">
-                  Launch of our Official Whitepaper
+          <section class="ps-timeline-sec">
+            <div class="container">
+              <ol class="ps-timeline desktop">
+                <li className="first_li">
+                  <div className="first_li_div fs-6 fw-bolder">
+                    <p>ANOTHER</p>
+                    <p>BEGINNING</p>
+                  </div>
                 </li>
-                <li className="roadmap-items">
-                  Audit Applications and Reviews
+                <li>
+                  <div class="img-handler-top fs-6 fw-bolder">
+                    <p>BEGIN DEVELOPMENT</p>
+                    <p>ON V2 WIDER</p>
+                    <p>ECOSYSTEM</p>
+                  </div>
+                  <span class="ps-sp-top"></span>
                 </li>
-                <li className="roadmap-items">Listing on CoinGecko</li>
-              </ul>
-            </div>
-          </div>
+                <li>
+                  <span class="ps-sp-bot"></span>
+                  <div class="img-handler-bot fs-6 fw-bolder">
+                    <p>LAUNCH ON CEX'S:</p>
+                    <p>BINGX, COINMARKET</p>
+                    <p>CAP</p>
+                  </div>
+                  <span class="ps-sp-bot"></span>
+                </li>
+                <li>
+                  <div class="img-handler-top fs-6 fw-bolder mb-5 pb-4">
+                    <p>LP LAUNCHED ON</p>
+                    <p>DEX'S UNISWAP V3</p>
+                  </div>
 
-          <div className="col-lg-4">
-            <div
-              data-wf-pbl="layout-grid-2x2-centered"
-              id="w-node-_24ab223e-c1c1-b11a-2056-1123316ed9d3-8b81b32c"
-              className="road-cell cell_agin"
-            >
-              <img
-               src={circle}
-                loading="lazy"
-                alt=""
-                className="roadicon"
-              />
-              <ul role="list" className="road-item">
-                <li className="roadmap-items">Charity Donations</li>
-                <li className="roadmap-items">Community / Team Building</li>
-                <li className="roadmap-items">AMA's</li>
-                <li className="roadmap-items">Giveaways</li>
-                <li className="roadmap-items">30k Twitter Followers</li>
-                <li className="roadmap-items">30k Instagram Followers</li>
-                <li className="roadmap-items">30k Telegram Group Members</li>
-              </ul>
-            </div>
-          </div>
+                  <span class="ps-sp-top"></span>
+                </li>
+                <li>
+                  <div class="img-handler-bot fs-6 fw-bolder">
+                    <p>PUBLIC SALE</p>
+                    <p>BEGIN TOKEN</p>
+                    <p>CAMPAIGN</p>
+                  </div>
+                  <span class="ps-sp-bot"></span>
+                </li>
+                <li>
+                  <div class="img-handler-top fs-6 fw-bolder">
+                    <p>PRE-SALE</p>
+                    <p>250 Eth Hard Cap</p>
+                    <p>50 Eth Min</p>
+                  </div>
+                  <span class="ps-sp-top"></span>
+                </li>
+                <li className="last_li">
+                  <div className="last_li_div fs-6 fw-bolder">
+                    <p>ERC20</p>
+                    <p>CREATED</p>
+                  </div>
+                </li>
+              </ol>
 
-          <div className="col-lg-4">
-            <div
-              data-wf-pbl="layout-grid-2x2-centered"
-              id="w-node-_24ab223e-c1c1-b11a-2056-1123316ed9d3-8b81b32c"
-              className="road-cell cell_agin"
-            >
-              <img
-                 src={circle}
-                loading="lazy"
-                alt=""
-                className="roadicon"
-              />
-              <ul role="list" className="road-item">
-                <li className="roadmap-items">meGods Swap</li>
-                <li className="roadmap-items">Listing on Major Exchanges</li>
-                <li className="roadmap-items">Influencer Marketing Push</li>
-                <li className="roadmap-items">Launch of Merchandise</li>
-                <li className="roadmap-items">Further Partnerships</li>
-                <li className="roadmap-items">NFT and Games</li>
-                <li className="roadmap-items">Further Ecosystem Development</li>
+              <ul class="timeline res_mob">
+                {/* <!-- Item 1 --> */}
+                <li>
+                  <div class="direction-r">
+                    <div class="flag-wrapper mb-5">
+                      <span class="desc fs-6 fw-bolder">ERC20 CREATED</span>
+                    </div>
+                    <div class="desc fs-6 fw-bolder">
+                    <p>PRE-SALE</p>
+                    <p>250 Eth Hard Cap</p>
+                    <p>50 Eth Min</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="direction-r">
+                    
+                    <div class="desc fs-6 fw-bolder">
+                    <p>PUBLIC SALE</p>
+                    <p>BEGIN TOKEN</p>
+                    <p>CAMPAIGN</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="direction-r">
+                    <div class="desc fs-6 fw-bolder">
+                    <p>LP LAUNCHED ON</p>
+                    <p>DEX'S UNISWAP V3</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="direction-r">
+                    <div class="desc fs-6 fw-bolder">
+                    <p>LAUNCH ON CEX'S:</p>
+                    <p>BINGX, COINMARKET CAP</p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="direction-r">
+                    
+                    <div class="desc fs-6 fw-bolder">
+                    <p>BEGIN DEVELOPMENT</p>
+                    <p>ON V2 WIDER</p>
+                    <p>ECOSYSTEM</p>
+                    </div>
+
+                    <div class="flag-wrapper mt-5">
+                    <span class="desc fs-5 ANOTHER fw-bolder">ANOTHER BEGINNING</span>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>

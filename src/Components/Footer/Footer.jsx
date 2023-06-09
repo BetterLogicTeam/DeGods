@@ -1,5 +1,6 @@
 import React from "react";
 import { BsDiscord, BsTwitter, BsInstagram } from "react-icons/bs";
+import { SiGitbook } from "react-icons/si";
 import "./Footer.css";
 import meGods from "../../assets/meRem.png"
 
@@ -9,7 +10,7 @@ function Footer() {
     <div className="Footer_main px-10 py-5 border-[#D1D1D1] border-t-1 border">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4">
+          {/* <div className="col-lg-4">
             <div className="min-w-md mt-10 md:mt-10">
               <a
                 className="d-flex justify-content-center items-center text-2xl gap-2"
@@ -25,11 +26,11 @@ function Footer() {
               </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 follow_main">
+          <div className=" follow_main">
             <div className="flex flex-col justify-center items-center  lg:w-1/4">
-              <h4 className="text-2xl mb-4">Follow Us</h4>
+              {/* <h4 className="text-2xl mb-4">Follow Us</h4> */}
               <div className="flex flex-row gap-4 content-start">
                 <a
                   href="https://discord.gg/dexyz"
@@ -37,7 +38,7 @@ function Footer() {
                   rel="noreferrer"
                   className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 text-black"
                 >
-                  <BsDiscord className="fs-4 ms-3" />
+                  <BsDiscord className="fs-2 ms-3" />
                 </a>
                 <a
                   href="https://twitter.com/DeGodsNFT"
@@ -45,7 +46,7 @@ function Footer() {
                   rel="noreferrer"
                   className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 text-black"
                 >
-                  <BsTwitter className="fs-4 ms-3" />
+                  <BsTwitter className="fs-2 ms-3" />
                 </a>
                 <a
                   href="https://www.instagram.com/thedegods/"
@@ -53,19 +54,13 @@ function Footer() {
                   rel="noreferrer"
                   className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 text-black"
                 >
-                  <BsInstagram className="fs-4 ms-3" />
+                  <SiGitbook className="fs-2 ms-3" />
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 last_heading">
-            <div className="">
-              <div className=" text-gray-600">
-                Copyright © {/* */}2023{/* */}. Made with ♥ by DeGods
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>

@@ -5,9 +5,9 @@ function About() {
   return (
     <>
       <div className="position-relative" id="About">
-      <div className="header-sections pt-5">
-        <h2>About Us</h2>
-      </div>
+        <div className="header-sections pt-5">
+          <h2>About Us</h2>
+        </div>
         <img
           alt="Paper Top"
           loading="lazy"
@@ -22,12 +22,17 @@ function About() {
       <div className="About_main">
         <div className="container">
           <div className="row">
-            <h2 className="about_heading">
-              We f*cked up and made original art <br className="about_br"/> instead of another
-              derivative.
-            </h2>
+            <h4 className="about_heading">
+              We introduce the concept and implementation of $MeGods Token, a
+              decentralized cryptocurrency designed to revolutionize the world
+              of memes and bring together creators, consumers, and investors in
+              a vibrant and innovative ecosystem. $MeGods Token aims to empower
+              meme creators, provide a seamless platform for meme sharing, and
+              incentivize community engagement through its unique features and
+              utility.
+            </h4>
 
-            <div className="position-relative  pt-4 overflow-x-hidden">
+            {/* <div className="position-relative  pt-4 overflow-x-hidden">
               <div className="position-absolute more right-8 top-4">
                 <svg
                   className="fill-[#6100FF] dark:fill-[#A771FF]"
@@ -174,7 +179,7 @@ function About() {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

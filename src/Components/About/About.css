@@ -29,11 +29,15 @@
   overflow-y: hidden !important;
 }
 
+.about_heading{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 
 @media screen and (max-width: 550px) {
   .about_heading{
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 17px;
   }
 
   .hero_slide {

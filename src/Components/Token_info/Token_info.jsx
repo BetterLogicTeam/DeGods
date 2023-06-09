@@ -25,7 +25,7 @@ function Token_info() {
                 id="w-node-aeb712cf-3303-4a96-abe8-07e3ae0c200c-8b81b32c"
                 class="token-info"
               >
-                <h3 class="head-3">Binance Smart Chain</h3>
+                <h3 class="head-3">Etherium Smart Chain</h3>
                 <div class="text-block">Token Network</div>
               </div>
             </div>
@@ -35,7 +35,7 @@ function Token_info() {
                 id="w-node-aeb712cf-3303-4a96-abe8-07e3ae0c200c-8b81b32c"
                 class="token-info"
               >
-                <h3 class="head-3">meGods</h3>
+                <h3 class="head-3">MemeGods</h3>
                 <div class="text-block">Token Name</div>
               </div>
             </div>
@@ -45,7 +45,7 @@ function Token_info() {
                 id="w-node-aeb712cf-3303-4a96-abe8-07e3ae0c200c-8b81b32c"
                 class="token-info_last"
               >
-                <h3 class="head-3">RedFlokiCEO</h3>
+                <h3 class="head-3">$MeGods</h3>
                 <div class="text-block">Token Symbol</div>
               </div>
             </div>

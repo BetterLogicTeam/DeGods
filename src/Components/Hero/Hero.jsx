@@ -11,7 +11,7 @@ function Hero() {
         </div>
 
         <div className="">
-          <h2 className="hero_para mt-5">The #1 NFT community on the internet.</h2>
+          <h2 className="hero_para mt-5">The #1 Meme community on the internet.</h2>
         </div>
 
         <div className="">
@@ -21,19 +21,8 @@ function Hero() {
     mt-5 bg-black px-3 gap-1 pt-3
   "
             >
-              <p className="text-white text-base sm:text-lg">Buy on</p>
-              <img
-                alt="buy on blur marketplace"
-                loading="lazy"
-                width={83}
-                height={22}
-                decoding="async"
-                data-nimg={1}
-                className="pt-1 sm:pt-0"
-                style={{ color: "transparent" }}
-                srcSet="https://powered.by.dustlabs.com/cdn-cgi/image/width=96/https://degods.com/degods/blur_logo.png 1x, https://powered.by.dustlabs.com/cdn-cgi/image/width=256/https://degods.com/degods/blur_logo.png 2x"
-                src="https://powered.by.dustlabs.com/cdn-cgi/image/width=256/https://degods.com/degods/blur_logo.png"
-              />
+              <p className="text-white text-base sm:text-lg">Buy</p>
+              <h5 className="text-white"> $MeGods</h5>
               <div className="w-[1px] mx-1 h-full bg-[#484848] rounded-full" />
               <div className="d-flex items-center gap-2">
                 <svg
