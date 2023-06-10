@@ -22,7 +22,7 @@ function Hero() {
   "
             >
               <p className="text-white text-base sm:text-lg">Buy</p>
-              <h5 className="text-white"> $MeGods</h5>
+              <h5 className="text-white ps-2"> $MeGods</h5>
               <div className="w-[1px] mx-1 h-full bg-[#484848] rounded-full" />
               <div className="d-flex items-center gap-2">
                 <svg
@@ -74,9 +74,6 @@ function Hero() {
                     </g>
                   </g>
                 </svg>
-                <p className="text-white text-xl sm:text-[18px] font-primaryBold">
-                  9.29
-                </p>
               </div>
             </button>
           </div>
