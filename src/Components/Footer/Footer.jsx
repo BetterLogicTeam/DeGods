@@ -33,7 +33,7 @@ function Footer() {
               {/* <h4 className="text-2xl mb-4">Follow Us</h4> */}
               <div className="flex flex-row gap-4 content-start">
                 <a
-                  href="https://discord.gg/dexyz"
+                  href="https://discord.gg/ud4rgbyFAd"
                   target="_blank"
                   rel="noreferrer"
                   className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 text-black"
@@ -41,7 +41,7 @@ function Footer() {
                   <BsDiscord className="fs-2 ms-3" />
                 </a>
                 <a
-                  href="https://twitter.com/DeGodsNFT"
+                  href="https://twitter.com/MemeGodsETH?t=OkrnO_vH5oYeuudt1fvSRg&s=09"
                   target="_blank"
                   rel="noreferrer"
                   className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 text-black"
@@ -49,7 +49,7 @@ function Footer() {
                   <BsTwitter className="fs-2 ms-3" />
                 </a>
                 <a
-                  href="https://www.instagram.com/thedegods/"
+                  // href="https://www.instagram.com/thedegods/"
                   target="_blank"
                   rel="noreferrer"
                   className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 text-black"
